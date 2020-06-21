@@ -1,0 +1,17 @@
+{
+  "usersCredentials":[{
+    "name": "shubham",
+    "email": "shubham@gmail.com",
+    "password": "12345678"
+  },
+  {
+    "name": "utkarsh",
+    "email": "utkarsh@gmail.com",
+    "password": "Hello.123"
+  },
+  {
+    "name": "infibeams",
+    "email": "infibeams@gmail.com",
+    "password": "12345678"
+  }]
+}

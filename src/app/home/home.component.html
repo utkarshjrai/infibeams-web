@@ -1,0 +1,37 @@
+<p>Welcome, {{this.user.name}}
+  <span>Email: {{this.user.email}}</span>
+</p>
+<button (click)="logOut()"> Sign-out</button>
+
+<div class="container">
+  <h1>Questions</h1>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+
+    <div class="form-group">
+      <label for="website">Topic:</label>
+      <div *ngFor="let topic of topicList">
+        <label>
+          <input type="checkbox" [value]="topic.name" (change)="onCheckboxChange($event)" />
+          {{topic.name}}
+        </label>
+      </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Choose</button>
+  </form>
+
+  <div *ngFor="let quest of displayQuestions; let z=index">
+    <h4 *ngFor="let singleQuest of quest ; let v =index">
+      {{singleQuest.question}}
+      <p *ngFor="let options of singleQuest.options; let i=index">
+        <label>
+          <input type="checkbox" [checked]="options.isChecked" [value]="options.que" (change)="onCheckboxChangeForOptions(i, z, v)" />
+          {{options.que}}
+        </label>
+      </p>
+    </h4>
+  </div>
+
+  <button [disabled]="isDisabled" (click)=submitTest()>Submit test</button>
+</div>

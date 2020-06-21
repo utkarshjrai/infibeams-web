@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { AuthService } from './auth.service';
-import { User } from './models/user.model';
-import { UserStoreService } from './user-store.service';
+import { AuthService } from '../auth.service';
+import { User } from '../models/user.model';
+import { UserStoreService } from '../user-store.service';
 import { Router } from '@angular/router';
 
 // import { SocialAuthService , GoogleLoginProvider, SocialUser } from 'angularx-social-login';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.scss']
 })
-export class AppComponent implements OnInit {
+export class LoginComponent implements OnInit {
   title = 'infibeams-web';
   signinForm: FormGroup;
   user: User;
@@ -39,7 +39,6 @@ export class AppComponent implements OnInit {
     const user = this.allUsers.filter((x: any) => x.email === this.signinForm.value.email && x.password === this.signinForm.value.password);
     if (user.length > 0) {
       const loggedInUser = {name: user[0].name, email: user[0].email};
-      console.log(loggedInUser, 'user andar');
       // Storing user to the user store so to make it available at every location.
       this.userStoreService.user = new User(loggedInUser);
       this.router.navigate(['home']);
@@ -47,17 +46,4 @@ export class AppComponent implements OnInit {
       window.alert('Wrong username or password');
     }
   }
-
-  signOut(): void {
-    // this.authService.signOut();
-  }
-
-  // setUser(user) {
-  // 	// Storing user to the user store so to make it available at every location.
-  // 	this.userStoreService.user = new User(user);
-  // }
-
-  // getUser(): User {
-  // 	return new User(this.userStoreService.user);
-// }
 }

@@ -1,0 +1,159 @@
+{
+  "HTML": [
+    {
+      "question": "HTML stands for?",
+      "answer": 0,
+      "options": [
+        {"que":"A. Hyper Text Markup Language", "isChecked": false},
+        {"que":"B.  High Text Markup Language", "isChecked": false},
+        {"que":"C. Hyper Tabular Markup Language", "isChecked": false},
+        {"que":"D. None of these", "isChecked": false}
+
+      ]
+    },
+    {
+      "question": "which of the following tag is used to mark begining of paragraph ?",
+      "answer": 2,
+      "options": [
+        {"que":"A.<TD>", "isChecked": false},
+        {"que":"B.<br>", "isChecked": false},
+        {"que":"C.<P>", "isChecked": false},
+        {"que":"D.<TR>", "isChecked": false}
+      ]
+    },
+    {
+      "question": "From which tag descriptive list starts ?",
+      "answer": 2,
+      "options": [
+        {"que":"A <LL>", "isChecked": false},
+        {"que":"B <DD>", "isChecked": false},
+        {"que":"C <DL>", "isChecked": false},
+        {"que":"D <DS>", "isChecked": false}
+      ]
+    },
+    {
+      "question": "Correct HTML tag for the largest heading is",
+      "answer": 3,
+      "options": [
+        {"que":"A <head>", "isChecked": false},
+        {"que":"B <h6>", "isChecked": false},
+        {"que":"C <heading>", "isChecked": false},
+        {"que":"D <h1>", "isChecked": false}
+      ]
+    },
+    {
+      "question": "The attribute of <form> tag",
+      "answer": 2,
+      "options": [
+          {"que":"A Method", "isChecked": false},
+          {"que":"B Action", "isChecked": false},
+          {"que":"C Both (a)&(b)", "isChecked": false},
+          {"que":"D None of these", "isChecked": false}
+      ]
+    }
+  ],
+  "CSS": [
+    {
+      "question": "CSS full form is",
+      "answer": 0,
+      "options": [
+        {"que":"A. Cascading style sheet", "isChecked": false},
+        {"que":"B. Css style sheet", "isChecked": false},
+        {"que":"C. Content style sheet", "isChecked": false},
+        {"que":"D. Country style sheet", "isChecked": false}
+      ]
+    },
+    {
+      "question": "CSS is for",
+      "answer": 2,
+      "options": [
+        {"que":"A. Styling", "isChecked": false},
+        {"que":"B. Designing", "isChecked": false},
+        {"que":"C.Both (a)&(b)", "isChecked": false},
+        {"que":"D.None of these", "isChecked": false}
+      ]
+    },
+    {
+      "question": "If we want to show an Arrow as cursor,\n then which value we will use ?",
+      "answer": 1,
+      "options": [
+        {"que":"A. Pointer", "isChecked": false},
+        {"que":"B. Default", "isChecked": false},
+        {"que":"C.Arrow", "isChecked": false},
+        {"que":"D.Arr", "isChecked": false}
+      ]
+    },
+    {
+      "question": "If we want to use a nice looking green \ndotted border around an image, which \ncss property will we use?",
+      "answer": 2,
+      "options": [
+        {"que":"A. Border Color", "isChecked": false},
+        {"que":"B. Border Decoration", "isChecked": false},
+        {"que":"C.border-style", "isChecked": false},
+        {"que":"D.border-line", "isChecked": false}
+      ]
+    },
+    {
+      "question": "How can we write comment along with \nCSS code ?",
+      "answer": 0,
+      "options": [
+        {"que":"A. /* a comment */", "isChecked": false},
+        {"que":"B. // a comment //", "isChecked": false},
+        {"que":"C. / a comment /", "isChecked": false},
+        {"que":"D.<' a comment'>", "isChecked": false}
+      ]
+    }
+  ],
+  "javascript": [
+    {
+      "question": "Which of the following is the correct syntax\n to print a page using JavaScript?",
+      "answer": 0,
+      "options": [
+        {"que":"A - window.print()", "isChecked": false},
+        {"que":"B - browser.print()", "isChecked": false},
+        {"que":"C - navigator.print()", "isChecked": false},
+        {"que":"D - document.print()", "isChecked": false}
+      ]
+    },
+    {
+      "question": "Which built-in method returns the \ncharacters in a string beginning \nat the specified location?",
+      "answer": 0,
+      "options": [
+        {"que":"A - substr()", "isChecked": false},
+        {"que":"B - getSubstring()", "isChecked": false},
+        {"que":"C - slice()", "isChecked": false},
+        {"que":"D - None of the above.", "isChecked": false}
+      ]
+    },
+    {
+      "question": "Which of the following function of Boolean \nobject returns the primitive value of the\nBoolean object?",
+      "answer": 1,
+      "options": [
+        {"que":"A - toSource()", "isChecked": false},
+        {"que":"B - valueOf()", "isChecked": false},
+        {"que":"C - toString()", "isChecked": false},
+        {"que":"D - None of the above.", "isChecked": false}
+      ]
+    },
+    {
+      "question": "Which of the following function of String \nobject is used to match a regular \nexpression against a string?",
+      "answer": 1,
+      "options": [
+        {"que":"A - concat()", "isChecked": false},
+        {"que":"B - match()", "isChecked": false},
+        {"que":"C - search()", "isChecked": false},
+        {"que":"D - replace()", "isChecked": false}
+      ]
+    },
+    {
+      "question": "Which of the following function of String \nobject creates an HTML anchor that is \nused as a hypertext target?",
+      "answer": 0,
+      "options": [
+        {"que":"A - anchor()", "isChecked": false},
+        {"que":"B - link()", "isChecked": false},
+        {"que":"C - blink()", "isChecked": false},
+        {"que":"D - big()", "isChecked": false}
+      ]
+    }
+  ]
+}
